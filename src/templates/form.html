@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="../static/form.css">
+
+</head>
+<body>
+    <form action="/register" method="post" autocomplete="off" class="form">
+        <div class="form-head">
+            <a href="index.html" class="btn-back"></a>
+            <h3 class="form-title">Регистрация</h3>
+        </div>
+        <div class="form-body">
+            <fieldset class="nickname-field" >
+                <legend>Введите ФИО</legend>
+                <input type="text" class="fname" placeholder="Введите ФИО" name="username">
+            </fieldset>
+            <p class="gender">Введите почту и пароль</p>
+            <div class="input-wrapper">
+                <input type="text" class="fname" placeholder="Введите вашу почту" name="email">
+            </div>
+
+            <div class = "pass">
+                <input type="password" class="fname" placeholder="Введите ваш пароль" name="password">
+            </div>
+
+            <div class="input-wrapper">
+                <label for="game">Ваша должность</label>
+                <select name="game" id="game" class="game">
+                    <option value="разработчик">разработчик</option>
+                    <option value="аналитик">аналитик</option>
+                    <option value="тестировщик">тестировщик</option>
+                    <option value="администратор">администратор</option>
+                    <option value="руководитель">руководитель</option>
+                    <option value="hr менеджер">hr менеджер</option>
+                </select>
+            </div>
+            <textarea name="comment" id="comment" placeholder="Дополнительная информация" class="comment"></textarea>
+
+            <button class="submit">Отправить</button>
+        </div>
+    </form>
+    
+</body>
+</html>

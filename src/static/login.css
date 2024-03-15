@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+body
+{
+    background: #222222;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: top right;
+    padding: 3%;
+    font-family: 'Oswald', sans-serif;
+}
+
+h1
+{
+    width: 50%;
+    margin: auto;
+    text-shadow: 1px 1px 4px grey;
+    text-align: center;
+}
+
+hr
+{
+    width: 50%;
+    height: 4px;
+    border-radius: 5px;
+    margin-top: 25px;
+    background-color: #2d1749;
+}
+
+p
+{
+    width: 50%;
+    padding: 13px;
+    margin: 23px auto auto;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+form
+{
+    width: 50%;
+    margin: 30px auto auto;
+    background: #222222;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7);
+    opacity: 0.65;
+    border-radius: 13px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.action
+{
+    text-align: center;
+}
+
+.sign-up, .sign-in
+{
+    color: black;
+    text-decoration: none;
+    padding:1%;
+}
+
+
+.active
+{
+    color: white;
+    border-bottom: 2px solid #0dccaa;
+}
+
+.sign-up:hover, .sign-in:hover
+{
+    color: #e1e;
+}
+
+
+.fields p {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.fields input {
+    width: 90%;
+    margin-left: 5%;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border: none;
+    background-color: #ffffff;
+    color: #0c0606;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.button
+{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10px;
+    padding: 8px 5px;
+    box-sizing: border-box;
+    background: #f80386;
+    color: black;
+    font-size: 18px;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+.button:hover
+{
+    background-color: black;
+    background: #f8034d;
+}
+
+form hr
+{
+    height: 0;
+    filter: blur(2px);
+    margin-left: 5%;
+    width: 90%;
+}
+
+.wrapper
+{
+    text-align: center;
+}
+
+.wrapper p
+{
+    display: inline;
+    padding: 5px;
+}
+
+.wrapper input
+{
+    width: auto;
+}
+
+
+#aboutChild
+{
+    width: 90%;
+    margin-left: 5%;
+    padding: 10px 5px;
+    border-radius: 15px;
+    border: none;
+    background-color: #60428e;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.save
+{
+    padding:1% 0;
+}
+
+.save input
+{
+    display:inline;
+    margin-left: 5%;
+}
+
+.save p
+{
+    display:inline;
+    font-size:12px;
+    color:#bbb;
+    padding:0;
+}
+
+
+.description {
+    color: white;
+}
+
+h1 {
+    color: white;
+}
